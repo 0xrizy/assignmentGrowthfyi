@@ -70,7 +70,7 @@ export default function Home() {
       <div className="flex flex-col items-center px-0 py-0 mx-auto ">
         {!seoData  && (
           <h1 className="text-4xl font-extrabold leading-none tracking-tight text-white" id="scrollTarget">
-            LOADING....
+            Please wait a few seconds after clicking Get Results...
           </h1>
         )}
         {seoData && (
